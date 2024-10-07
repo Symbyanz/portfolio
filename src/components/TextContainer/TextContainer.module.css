@@ -1,0 +1,25 @@
+.textContainer>p,
+.textContainer>a {
+    margin-bottom: 1rem;
+}
+
+.textContainer>p:last-child,
+.textContainer>a:last-child {
+    margin-bottom: 0;
+}
+
+.textContainer p,
+.textContainer a {
+    color: #94a3b8;
+    line-height: 1.625;
+}
+
+.textContainer a,
+.textContainer strong {
+    color: #e2e8f0;
+    font-weight: 500;
+}
+
+.textContainer a:hover {
+    color: #5eead4;
+}

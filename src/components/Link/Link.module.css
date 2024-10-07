@@ -1,0 +1,35 @@
+.linkList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: .5rem;
+}
+
+.linkItem {
+    margin-right: 1rem;
+}
+
+.link {
+    color: #cbd5e1;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin-top: .5rem;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s;
+}
+
+.anchor svg {
+    width: .75rem;
+    height: .75rem;
+    margin-right: .25rem;
+    display: block;
+    vertical-align: middle;
+}
+
+.link:hover {
+    color: #5eead4;
+}
