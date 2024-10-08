@@ -191,7 +191,7 @@ td.link a.external-link:hover svg {
   max-width: 1280px;
 }
 
-.main {
+.main._half {
   padding-top: 6rem;
 }
 
@@ -329,6 +329,9 @@ td.link a.external-link:hover svg {
 
   .main._half {
     width: 50%;
+  }
+  td {
+    padding-right: 1.5rem;
   }
 
   th.hidden,

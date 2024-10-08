@@ -1,6 +1,31 @@
 import MouseGradient from "@/components/MouseGradient/MouseGradient";
 import Section from "@/components/Section/Section";
 import ProjectsTable from "@/components/Table/ProjectsTable";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Архив | Панкратов Вячеслав",
+    description: "Ознакомьтесь с архивом проектов, с использованием Next.js и WordPress.",
+    openGraph: {
+        title: "Архив проектов | Панкратов Вячеслав",
+        description: "Ознакомьтесь с архивом проектов, с использованием Next.js и WordPress.",
+        locale: "ru_RU",
+        siteName: "Панкратов Вячеслав",
+        type: "website",
+        url: `https://${process.env.PROD_URL}/projects`,
+        images: [
+            {
+                url: `https://${process.env.PROD_URL}/og.jpg`,
+                width: 800,
+                height: 600,
+                alt: "Архив проектов Панкратова Вячеслава",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+    },
+};
 
 export default function Projects() {
     return (

@@ -78,30 +78,50 @@ export const projectListData: ProjectType[] = [
         title: 'фронтенд Animated Portfolio',
         customer: 'Практика',
         tags: ['Vite', 'React', 'TypeScript', 'HTML & SCSS'],
+        link: {
+            url: 'https://github.com/Symbyanz/animated-portfolio',
+            label: 'GitHub'
+        }
     },
     {
         year: 2022,
         title: 'Лендинг Beauty Lunch',
         customer: 'Самозанятость',
         tags: ['JavaScript', 'jQuery', 'PHP', 'HTML & SCSS', 'Gulp', 'Webpack', 'Figma'],
+        link: {
+            url: 'https://github.com/Symbyanz/beauty-lunch',
+            label: 'GitHub'
+        }
     },
     {
         year: 2022,
         title: 'Корпоративный сайт Meydan-fz',
         customer: 'Самозанятость',
-        tags: [ 'PHP', 'JavaScript', 'HTML & SCSS', 'Figma'],
+        tags: ['PHP', 'JavaScript', 'HTML & SCSS', 'Figma'],
+        link: {
+            url: 'https://github.com/Symbyanz/meydan-fz',
+            label: 'GitHub'
+        }
     },
     {
         year: 2022,
         title: 'Админ Панель для лендингов',
         customer: 'Самозанятость',
         tags: ['PHP', 'PhpSpreadsheet', 'JavaScript', 'HTML & SCSS'],
+        link: {
+            url: 'https://github.com/Symbyanz/admin-panel',
+            label: 'GitHub'
+        }
     },
     {
         year: 2021,
         title: 'Приложение Mailer',
         customer: 'Практика',
         tags: ['React', 'Electron', 'Express', 'parserExcel', 'mailer', 'fileWorker', 'JavaScript', 'HTML & CSS'],
+        link: {
+            url: 'https://github.com/Symbyanz/mailer',
+            label: 'GitHub'
+        }
     },
     {
         year: 2021,
@@ -120,48 +140,80 @@ export const projectListData: ProjectType[] = [
         title: 'Фронтенд MeMerch',
         customer: 'Практика',
         tags: ['JavaScript', 'HTML & SCSS', 'Gulp', 'Webpack'],
+        link: {
+            url: 'https://github.com/Symbyanz/memerch',
+            label: 'GitHub'
+        }
     },
     {
         year: 2021,
         title: 'Лендинг Стиль-кухни',
         customer: 'Самозанятость',
         tags: ['JavaScript', 'jQuery', 'HTML & SCSS', 'Gulp', 'Webpack'],
+        link: {
+            url: 'https://github.com/Symbyanz/stilj-kuhni',
+            label: 'GitHub'
+        }
     },
     {
         year: 2021,
         title: 'Лендинг Accelerator Traffic light',
         customer: 'Самозанятость',
         tags: ['JavaScript', 'jQuery', 'HTML & SCSS', 'Gulp', 'Webpack'],
+        link: {
+            url: 'https://github.com/Symbyanz/trafic',
+            label: 'GitHub'
+        }
     },
     {
         year: 2021,
         title: 'Лендинг Disigner auto чехлы',
         customer: 'Самозанятость',
         tags: ['JavaScript', 'jQuery', 'HTML & SCSS', 'Photoshop'],
+        link: {
+            url: 'https://github.com/Symbyanz/covers',
+            label: 'GitHub'
+        }
     },
     {
         year: 2021,
         title: 'Лендинг Disigner auto накидки',
         customer: 'Самозанятость',
         tags: ['JavaScript', 'jQuery', 'HTML & CSS', 'Photoshop'],
+        link: {
+            url: 'https://github.com/Symbyanz/covers2',
+            label: 'GitHub'
+        }
     },
     {
         year: 2021,
         title: 'Лендинг Dirham Token',
         customer: 'Самозанятость',
         tags: ['JavaScript', 'jQuery', 'HTML & CSS', 'Photoshop'],
+        link: {
+            url: 'https://github.com/Symbyanz/covers2',
+            label: 'GitHub'
+        }
     },
     {
         year: 2020,
         title: 'Лендинг Кроссовки puma',
         customer: 'Telesale',
         tags: ['JavaScript', 'jQuery', 'HTML & CSS'],
+        link: {
+            url: 'https://github.com/Symbyanz/dirham',
+            label: 'GitHub'
+        }
     },
     {
         year: 2020,
         title: 'Лендинг часы Amazfit GTR 2',
         customer: 'Telesale',
         tags: ['JavaScript', 'jQuery', 'HTML & CSS'],
+        link: {
+            url: 'https://github.com/Symbyanz/amazfit',
+            label: 'GitHub'
+        }
     },
     {
         year: 2020,

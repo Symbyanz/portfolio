@@ -28,7 +28,7 @@ const ProjectsTable = () => {
                         return <div>{title}</div>
                     },
                 },
-                { header: 'Форма', accessor: 'customer', className: 'hidden' },
+                { header: 'Формат', accessor: 'customer', className: 'customer hidden' },
                 {
                     header: 'Стек технологий',
                     accessor: 'tags',

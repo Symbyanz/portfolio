@@ -26,13 +26,12 @@ export const sectionsData: SectionType[] = [
         label: 'Мой опыт работы',
         template: 'card-list',
         link: {
-            url: '#',
+            url: '/resume.pdf',
             label: 'Смотреть резюме',
         },
         content: [
             {
                 header: '2023 — настоящее время',
-                // link: '#',
                 title: 'Самозанятость · фриланс',
                 subtitle: 'Fullstack-разработчик',
                 text: 'Работаю фрилансером, создавая многостраничные сайты, такие как cei.expert и letself.ru. В процессе освоил дизайн в Figma, работу с WooCommerce, а также интеграцию API Робокассы и СДЭК. Сейчас изучаю Next.js и Vue.js, одновременно разрабатывая интернет-магазин продуктов.',
@@ -66,7 +65,6 @@ export const sectionsData: SectionType[] = [
             },
             {
                 header: '2018 — 2020',
-                // link: '#',
                 title: 'Telesale · Интернет-маркетинг, арбитраж',
                 subtitle: 'HTML-верстальщик',
                 text: 'Создал множество адаптивных лендингов для арбитража трафика, акцентируя внимание на интерактивных элементах и привлекательном дизайне. Разработал более 1000 посадочных страниц с уникальным оформлением, но общей шаблонной структурой, включая баннеры с формами обратной связи, товарные карусели и разделы с преимуществами и отзывами клиентов.',
@@ -80,7 +78,7 @@ export const sectionsData: SectionType[] = [
         label: 'Мои проекты',
         template: 'card-list',
         link: {
-            url: '/projects',
+            url: '/archive',
             label: 'Больше проектов',
         },
         content: [
@@ -93,7 +91,7 @@ export const sectionsData: SectionType[] = [
                 },
                 link: 'https://centereco.ru/',
                 title: 'Корпоративный сайт Centereco',
-                text: 'Разработан дизайн в Figma и стартовый шаблон для создания кастомных тем WordPress (WP-starter). Реализованы калькулятор услуг, живой поиск по городам, модальные окна и валидация форм. Проведена SEO-оптимизация с настройкой заголовков, хлебных крошек и др.',
+                text: 'Разработан дизайн в Figma и разработан стартовый шаблон для создания кастомных тем WordPress (WP-starter). Реализованы калькулятор услуг, живой поиск по городам, модальные окна и валидация форм. Проведена SEO-оптимизация с настройкой заголовков, хлебных крошек и др.',
                 tags: ['Wordpress', 'PHP', 'JavaScript', 'HTML & SCSS', 'TypeScript', 'Webpack', 'Figma', 'SEO']
             },
             {
@@ -115,7 +113,7 @@ export const sectionsData: SectionType[] = [
                     width: 200,
                     height: 50,
                 },
-                // link: '#',
+                link: 'https://github.com/Symbyanz/signreg',
                 title: 'Корпоративный сайт Signreg',
                 text: 'Дизайн клиентской части в Figma, а фронтенд на Next.js. Реализованы аккордеон, пагинация, табы, живой поиск и фильтры. Проект состоит из двух этапов: первый — разработка сайта и базового бэкенда с авто-деплоем через GitHub Actions; второй — создание админ-панели и форума, на данный момент заморожен.',
                 tags: ['Next.js', 'React', 'TypeScript', 'HTML & SCSS', 'GitHub Actions', 'UI Components', 'Figma']
