@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Suspense } from "react";
+import { Metrika } from "@/components/Metrika/Metrika";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -8,10 +10,10 @@ const inter = Inter({
 
 export const metadata = {
   title: "Панкратов Вячеслав",
-  description: "Панкратов Вячеслав — frontend-разработчик, создающий доступные и функциональные веб-сайты с использованием Next.js и WordPress.",
+  description: "Frontend-разработчик, создающий доступные и функциональные веб-сайты с использованием Next.js и WordPress.",
   openGraph: {
     title: "Панкратов Вячеслав",
-    description: "Панкратов Вячеслав — frontend-разработчик, создающий доступные и функциональные веб-сайты с использованием Next.js и WordPress.",
+    description: "Frontend-разработчик, создающий доступные и функциональные веб-сайты с использованием Next.js и WordPress.",
     locale: "ru_RU",
     siteName: "Панкратов Вячеслав",
     type: "website",
@@ -42,6 +44,9 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
+        <Suspense>
+          <Metrika />
+        </Suspense>
       </head>
       <body className={`${inter.className}`}>
         {children}
